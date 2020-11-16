@@ -1,0 +1,20 @@
+{
+  "name": "santex",
+  "version": "1.0.0",
+  "description": "Challenge Santex BackEnd",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "nodemon": "nodemon app.js"
+  },
+  "author": "Pablo Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6"
+  }
+}
